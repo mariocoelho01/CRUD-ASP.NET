@@ -55,7 +55,6 @@ namespace Todo.Controllers
             context.Todos.Update(model);
             context.SaveChanges();
             return Ok(model);
-
         }
 
 
